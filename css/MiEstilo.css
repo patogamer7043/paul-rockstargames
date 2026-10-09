@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenido{
+    height: 100vh;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#zona1{
+    background-image: url('../images/06_parallax/images/logo.jpg');
+    
+}
+
+#zona2{
+    background-image: url('../images/06_parallax/images/logo\ rockstar.jpg');
+}
+
+#zona30{
+    background-image: url('../images/06_parallax/images/gta1sdsd.jpg');
+}
+
+#zona40{
+    background-image: url('../images/06_parallax/images/gta2sdsd.jpg');
+}
+
+#zona50{
+    background-image: url('../images/06_parallax/images/gta3sdsd.jpg');
+}
+
+#zona60{
+    background-image: url('../images/06_parallax/images/gtavicecity\ sdsd.jpg');
+}
+
+#zona70{
+    background-image: url('../images/06_parallax/images/gtasan\ ya\ bien\ sdsd.jpg');
+}
+
+#zona80{
+    background-image: url('../images/06_parallax/images/gta4\ sdsds.jpg');
+}
+
+#zona90{
+    background-image: url('../images/06_parallax/images/gta5\ sdsds.jpg');
+}
+
+#zona100{
+    background-image: url('../images/06_parallax/images/gta\ o\ sdsd.jpg');
+}
+
+#zona110{
+    background-image: url('../images/06_parallax/images/gta6\ sdsd.jpg');
+}
+
+
+
+/*menu*/
+nav{
+    position: fixed;
+    left: 40px;
+    top: 20%;
+    z-index: 100;
+    transition: 0.4s ease;
+    transform: traslateX(-50%);
+}
+
+ul{
+    list-style: none;
+}
+
+ul a {
+
+ border: 2px solid #ffffff;
+ 
+  color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 
+    0 0 5px #ffffff,
+    0 0 10px #8b00f6,
+    0 0 20px #f100fe;
+   
+
+    display: block;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    height: 40px;
+
+    
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    transition: 0.4s ease;   
+}
+ul a:hover{
+   
+    
+    color: rgb(255, 255, 255);
+    transform: translateX(10%);
+}
